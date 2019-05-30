@@ -1,0 +1,8 @@
+
+platform :ios, ’11.2’
+
+def pods
+  pod 'CocoaAsyncSocket', '~> 7.6.2' end
+target ‘sockettest’ do
+  pods
+end
